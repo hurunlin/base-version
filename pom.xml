@@ -3,6 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
+
+    <parent>
+        <artifactId>root-version</artifactId>
+        <groupId>com.hrl</groupId>
+        <version>1.0.1-SNAPSHOT</version>
+    </parent>
+
     <!-- 全局属性 -->
     <properties>
         <model.version>4.0.0</model.version>
@@ -12,7 +19,7 @@
     <modelVersion>${model.version}</modelVersion>
 
     <!-- pom项目属性 -->
-    <groupId>com.test</groupId>
+    <groupId>com.hrl</groupId>
     <artifactId>base-version</artifactId>
     <packaging>pom</packaging>
     <version>${learning}</version>
